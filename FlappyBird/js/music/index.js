@@ -24,7 +24,8 @@ var n
   'score18',
   'score19',
   'score20',
-  'score21'
+  'score21',
+  'score22'
 ]
  */
 
@@ -49,7 +50,7 @@ export default {
     /**
   playScore() {
     audios.currentTime = 0,
-    n = Math.round(Math.random() * 20 + 1);
+    n = Math.round(Math.random() * 21 + 1);
     const bb = scoreList[n]
     console.log(bb)
     audios[bb].play()
