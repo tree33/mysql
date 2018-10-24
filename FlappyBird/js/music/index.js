@@ -58,7 +58,7 @@ export default {
 
   playScore() {
     audios.currentTime = 0,
-      n = Math.round(Math.random() * 22 + 1);
+      n = Math.round(Math.random() * 21 + 1);
     let sre_index = "score" + n;
     let bb = audios[sre_index];
     console.log(sre_index)
