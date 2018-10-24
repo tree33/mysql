@@ -37,7 +37,7 @@ export default {
     audios.crash.play()
   },
   /**
-   * 播放小鸟飞动声音
+   * 播放维尼飞动声音
    */
   playFlap() {
     audios.flap.currentTime = 0
@@ -58,7 +58,7 @@ export default {
 
   playScore() {
     audios.currentTime = 0,
-      n = Math.round(Math.random() * 21 + 1);
+      n = Math.round(Math.random() * 22 + 1);
     let sre_index = "score" + n;
     let bb = audios[sre_index];
     console.log(sre_index)
@@ -66,7 +66,7 @@ export default {
   },
    
   /**
-   * 播放小鸟碰撞后的死亡声
+   * 播放维尼碰撞后的死亡声
    */
   playGameover() {
     audios.ouch.currentTime = 0
