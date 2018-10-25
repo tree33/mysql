@@ -43,6 +43,7 @@ const MUSIC_NAME_LIST = [
   'score19.mp3',
   'score20.mp3',
   'score21.mp3',
+  'score22.mp3',
 ]
 
 // bird
